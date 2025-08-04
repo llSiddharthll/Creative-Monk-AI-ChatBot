@@ -4,7 +4,7 @@ import OpenAI from 'openai';
 const SITE_TITLE = 'Creative Monk AI Bot';
 const SITE_URL = 'https://creative-monk-ai-chat-bot-gvxp.vercel.app/';
 
-const OPENROUTER_API_KEY = import.meta.env.OPENROUTER_API_KEY;
+const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
 const openai = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',

@@ -2,9 +2,9 @@ import OpenAI from 'openai';
 
 // Optional: Set your frontend domain if needed for OpenRouter tracking
 const SITE_TITLE = 'Creative Monk AI Bot';
-const SITE_URL = window?.location?.origin || 'http://localhost:3000';
+const SITE_URL = 'https://creative-monk-ai-chat-bot-gvxp.vercel.app/';
 
-const OPENROUTER_API_KEY = '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';
+const OPENROUTER_API_KEY = import.meta.env.OPENROUTER_API_KEY;
 
 const openai = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',

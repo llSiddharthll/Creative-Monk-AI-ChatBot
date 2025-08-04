@@ -56,7 +56,7 @@ export function AuthModal({ isOpen, onClose }) {
           <div className="flex items-center gap-3">
             <div className="p-2 rounded-lg border-2 border-orange-500">
               <img 
-                src="/public/image.png" 
+                src="/image.png" 
                 alt="Creative Monk AI Bot" 
                 className="w-6 h-6 object-contain"
               />
